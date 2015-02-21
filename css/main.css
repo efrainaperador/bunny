@@ -1,0 +1,135 @@
+header{
+	width: 100%;
+	height: 65px;
+	background-color: #EBEBEB;
+	line-height: 65px;
+	font-size: 18px;
+	text-align: center;
+	font-family: 'Helvetica';
+}
+
+#videoUrl{
+	width: 230px;
+	height: 25px;
+}
+
+#comment{
+	width: 330px;
+	height: 25px;
+}
+
+.twitter{
+	background-color: #3498DB;
+	display: inline-block;
+	text-decoration: none;
+	border-radius: 3px;
+	width: 195px;
+	height: 25px;
+	vertical-align: middle;
+	line-height: 25px;
+	color: #FFF;
+	font-size: 12px;
+}
+
+.twitter *{
+	vertical-align: top;
+	display: inline-block;
+}
+
+.twitter span{
+	padding-top: 2px;
+
+}
+
+#tweets{
+	width: 100%;
+}
+
+#tweets ul li{
+	list-style: none;
+	width: 765px;
+	height: 305px;
+	border: solid 1px #000;
+	border-radius: 5px;
+	margin: 10px auto 5px;
+	text-align: center;
+}
+
+#tweets ul li > div, #tweets ul li > iframe{
+	display: inline-block;
+	width: 48%;
+	vertical-align: top;
+	margin: 30px 0 0 15px;
+	text-align: left;
+
+}
+
+.user{
+	line-height: 48px;
+	
+}
+
+.user img{
+	border-radius: 50%;
+}
+
+.user .userInfo{
+	vertical-align: top;
+	display: inline-block;
+	margin-top: 8px;
+}
+
+.user .userInfo span{
+	display: block;
+	line-height: initial;
+	text-align: left;
+	margin-left: 5px;
+}
+
+.user .userInfo span#userName{
+	font-weight: bold;
+}
+
+.user .userInfo span#userTag{
+	color: #9D9D9D;
+	font-size: 12px;
+	margin-top: 3px;
+}
+
+.tweet{
+	display: block;
+	margin: 5px 0 0 0;
+}
+
+.tweet a{
+	text-decoration: none;
+	color: #9EA1CC;
+}
+
+.timePosted, .interact{
+	display: inline-block;
+	margin: 14px 0 0 0;
+	color: #9D9D9D;
+	font-size: 13px;
+}
+
+.timePosted{
+	float: left;
+}
+
+.interact{
+	float: right;
+}
+
+.interact a{
+	text-decoration: none;
+	color: #9D9D9D;
+	margin: 0 10px 0 0;
+}
+
+.interact a img{
+	margin: 0 5px 0 0;
+}
+
+
+
